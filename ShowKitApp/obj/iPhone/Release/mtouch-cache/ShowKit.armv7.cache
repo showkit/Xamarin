@@ -1,0 +1,1 @@
+--aot=mtriple=armv7-darwin,full,static,asmonly,direct-icalls,nodebug,outfile=/ShowKit.dll.armv7.s "/Users/xiaowoo/projects/ShowKitApp/ShowKitApp/bin/iPhone/Release/ShowKitApp.app/ShowKit.dll"

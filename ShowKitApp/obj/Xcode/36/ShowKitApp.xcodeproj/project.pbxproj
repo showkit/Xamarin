@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3825F4B50000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB701530000000000000000 /* UIKit.framework */; };
+		19BB97E80000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4CA4860000000000000000 /* MapKit.framework */; };
+		2EEF00800000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32800D1E0000000000000000 /* Foundation.framework */; };
+		2259E2C90000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EAEF670000000000000000 /* CoreGraphics.framework */; };
+		16D234760000000000000000 /* ShowKitAppViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6341140000000000000000 /* ShowKitAppViewController_iPad.xib */; };
+		2A23A5310000000000000000 /* ShowKitAppViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB4B1CF0000000000000000 /* ShowKitAppViewController_iPhone.xib */; };
+		3BC6012B0000000000000000 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F570DC90000000000000000 /* LoginViewController.xib */; };
+		2B9FD6D60000000000000000 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F30E3740000000000000000 /* DashboardViewController.xib */; };
+		9A46D6B00000000000000000 /* ShareScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D357A0900000000000000000 /* ShareScreenViewController.xib */; };
+		3EBE64750000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 24F711300000000000000000 /* AppDelegate.h */; };
+		277620E40000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B072D820000000000000000 /* AppDelegate.m */; };
+		358770400000000000000000 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 39187CDE0000000000000000 /* LoginViewController.h */; };
+		2C835F270000000000000000 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30146BC50000000000000000 /* LoginViewController.m */; };
+		3A94AE830000000000000000 /* ShowKitAppViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E25BB210000000000000000 /* ShowKitAppViewController.h */; };
+		11772BDC0000000000000000 /* ShowKitAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1508387A0000000000000000 /* ShowKitAppViewController.m */; };
+		231987D60000000000000000 /* DashboardViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 26AA94740000000000000000 /* DashboardViewController.h */; };
+		18337EE00000000000000000 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC48B7E0000000000000000 /* DashboardViewController.m */; };
+		62B5CAE00000000000000000 /* ShareScreenViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9BC694C00000000000000000 /* ShareScreenViewController.h */; };
+		27C0FFE10000000000000000 /* ShareScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B520C7F0000000000000000 /* ShareScreenViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2489A4FD0000000000000000 /* ShowKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ShowKitApp.app"; path = "ShowKitApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB701530000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		1D4CA4860000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		32800D1E0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		25EAEF670000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		1A6341140000000000000000 /* ShowKitAppViewController_iPad.xib */ = {isa = PBXFileReference; name = "ShowKitAppViewController_iPad.xib"; path = "Screens/ShowKitAppViewController_iPad.xib"; sourceTree = "<group>"; };
+		2DB4B1CF0000000000000000 /* ShowKitAppViewController_iPhone.xib */ = {isa = PBXFileReference; name = "ShowKitAppViewController_iPhone.xib"; path = "Screens/ShowKitAppViewController_iPhone.xib"; sourceTree = "<group>"; };
+		3F570DC90000000000000000 /* LoginViewController.xib */ = {isa = PBXFileReference; name = "LoginViewController.xib"; path = "Screens/LoginViewController.xib"; sourceTree = "<group>"; };
+		2F30E3740000000000000000 /* DashboardViewController.xib */ = {isa = PBXFileReference; name = "DashboardViewController.xib"; path = "Screens/DashboardViewController.xib"; sourceTree = "<group>"; };
+		D357A0900000000000000000 /* ShareScreenViewController.xib */ = {isa = PBXFileReference; name = "ShareScreenViewController.xib"; path = "Screens/ShareScreenViewController.xib"; sourceTree = "<group>"; };
+		24F711300000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2B072D820000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		39187CDE0000000000000000 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginViewController.h"; path = "LoginViewController.h"; sourceTree = "<group>"; };
+		30146BC50000000000000000 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginViewController.m"; path = "LoginViewController.m"; sourceTree = "<group>"; };
+		3E25BB210000000000000000 /* ShowKitAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShowKitAppViewController.h"; path = "ShowKitAppViewController.h"; sourceTree = "<group>"; };
+		1508387A0000000000000000 /* ShowKitAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ShowKitAppViewController.m"; path = "ShowKitAppViewController.m"; sourceTree = "<group>"; };
+		26AA94740000000000000000 /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DashboardViewController.h"; path = "DashboardViewController.h"; sourceTree = "<group>"; };
+		1BC48B7E0000000000000000 /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DashboardViewController.m"; path = "DashboardViewController.m"; sourceTree = "<group>"; };
+		9BC694C00000000000000000 /* ShareScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShareScreenViewController.h"; path = "ShareScreenViewController.h"; sourceTree = "<group>"; };
+		2B520C7F0000000000000000 /* ShareScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ShareScreenViewController.m"; path = "ShareScreenViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3300BA910000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3825F4B50000000000000000 /* UIKit.framework in Frameworks */,
+				19BB97E80000000000000000 /* MapKit.framework in Frameworks */,
+				2EEF00800000000000000000 /* Foundation.framework in Frameworks */,
+				2259E2C90000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131A2C1F0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3DB3E06B0000000000000000 /* ShowKitApp */,
+				1DCD51F90000000000000000 /* Frameworks */,
+				867064500000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		867064500000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2489A4FD0000000000000000 /* ShowKitApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1DCD51F90000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BB701530000000000000000 /* UIKit.framework */,
+				1D4CA4860000000000000000 /* MapKit.framework */,
+				32800D1E0000000000000000 /* Foundation.framework */,
+				25EAEF670000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3DB3E06B0000000000000000 /* ShowKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				24F711300000000000000000 /* AppDelegate.h */,
+				26AA94740000000000000000 /* DashboardViewController.h */,
+				39187CDE0000000000000000 /* LoginViewController.h */,
+				9BC694C00000000000000000 /* ShareScreenViewController.h */,
+				3E25BB210000000000000000 /* ShowKitAppViewController.h */,
+				36EBA6040000000000000000 /* Screens */,
+				1EA4F2E70000000000000000 /* Supporting Files */,
+			);
+			name = "ShowKitApp";
+			sourceTree = "<group>";
+		};
+		36EBA6040000000000000000 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2F30E3740000000000000000 /* DashboardViewController.xib */,
+				3F570DC90000000000000000 /* LoginViewController.xib */,
+				D357A0900000000000000000 /* ShareScreenViewController.xib */,
+				1A6341140000000000000000 /* ShowKitAppViewController_iPad.xib */,
+				2DB4B1CF0000000000000000 /* ShowKitAppViewController_iPhone.xib */,
+			);
+			name = "Screens";
+			sourceTree = "<group>";
+		};
+		1EA4F2E70000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B072D820000000000000000 /* AppDelegate.m */,
+				1BC48B7E0000000000000000 /* DashboardViewController.m */,
+				30146BC50000000000000000 /* LoginViewController.m */,
+				2B520C7F0000000000000000 /* ShareScreenViewController.m */,
+				1508387A0000000000000000 /* ShowKitAppViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CCEE26D0000000000000000 /* ShowKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D67F230000000000000000 /* Build configuration list for PBXNativeTarget "ShowKitApp" */;
+			buildPhases = (
+				212B7B7B0000000000000000 /* Sources */,
+				3300BA910000000000000000 /* Frameworks */,
+				A161B0600000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShowKitApp";
+			productName = "ShowKitApp";
+			productReference = 2489A4FD0000000000000000 /* ShowKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		121BBC930000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F23594900000000000000000 /* Build configuration list for PBXProject "ShowKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 131A2C1F0000000000000000;
+			productRefGroup = 867064500000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCEE26D0000000000000000 /* ShowKitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A161B0600000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D234760000000000000000 /* ShowKitAppViewController_iPad.xib in Resources */,
+				2A23A5310000000000000000 /* ShowKitAppViewController_iPhone.xib in Resources */,
+				3BC6012B0000000000000000 /* LoginViewController.xib in Resources */,
+				2B9FD6D60000000000000000 /* DashboardViewController.xib in Resources */,
+				9A46D6B00000000000000000 /* ShareScreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212B7B7B0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE64750000000000000000 /* AppDelegate.h in Sources */,
+				277620E40000000000000000 /* AppDelegate.m in Sources */,
+				358770400000000000000000 /* LoginViewController.h in Sources */,
+				2C835F270000000000000000 /* LoginViewController.m in Sources */,
+				3A94AE830000000000000000 /* ShowKitAppViewController.h in Sources */,
+				11772BDC0000000000000000 /* ShowKitAppViewController.m in Sources */,
+				231987D60000000000000000 /* DashboardViewController.h in Sources */,
+				18337EE00000000000000000 /* DashboardViewController.m in Sources */,
+				62B5CAE00000000000000000 /* ShareScreenViewController.h in Sources */,
+				27C0FFE10000000000000000 /* ShareScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109F8AEE0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		470336F00000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "ShowKitApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23594900000000000000000 /* Build configuration list for PBXProject "ShowKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109F8AEE0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		19D67F230000000000000000 /* Build configuration list for PBXNativeTarget "ShowKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470336F00000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 121BBC930000000000000000 /* Project object */;
+}

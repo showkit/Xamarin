@@ -1,0 +1,37 @@
+using System;
+using System.Drawing;
+using MonoTouch.Foundation;
+using MonoTouch.UIKit;
+
+namespace ShowKitApp
+{
+	public partial class HiddenTextFieldViewController : UIViewController
+	{
+		HiddenButtonViewController hiddenButtonViewController;
+		public HiddenTextFieldViewController () : base ("HiddenTextFieldViewController", null)
+		{
+		}
+
+		public override void DidReceiveMemoryWarning ()
+		{
+			// Releases the view if it doesn't have a superview.
+			base.DidReceiveMemoryWarning ();
+			
+			// Release any cached data, images, etc that aren't in use.
+		}
+
+		public override void ViewDidLoad ()
+		{
+			base.ViewDidLoad ();
+			
+			// Perform any additional setup after loading the view, typically from a nib.
+		}
+
+		partial void hiddenButtonAction (NSObject sender)
+		{
+			this.hiddenButtonViewController = new HiddenButtonViewController();
+			this.NavigationController.PushViewController(this.hiddenButtonViewController, true);
+		}
+	}
+}
+

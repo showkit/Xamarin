@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Corey's iPod touch" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShowKitApp/Controllers/Constants.cs">
+    <Files>
+      <File FileName="ShowKitApp/Controllers/RegisterViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/RegisterViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/ShareScreenViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/LoginViewController.cs" Line="61" Column="5" />
+      <File FileName="ShowKitApp/Controllers/Constants.cs" Line="9" Column="1" />
+      <File FileName="ShowKitApp/Controllers/DashboardViewController.cs" Line="58" Column="5" />
+      <File FileName="ShowKitApp/Controllers/HiddenTextFieldViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/ShowKitAppViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/GestureDemoViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/HiddenButtonViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/MiscellaneousViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/ScreenDemoViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ShowKitApp" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Controllers" expanded="True">
+              <Node name="Constants.cs" selected="True" />
+            </Node>
+            <Node name="Screens" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="ShowKitApp/Controllers/DashboardViewController.cs" line="29" offsetX="853" offsetY="314" expression="mainVideoUIView" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

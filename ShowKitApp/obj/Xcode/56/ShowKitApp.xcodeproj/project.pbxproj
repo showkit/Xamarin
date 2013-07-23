@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB72A3A00000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104836D80000000000000000 /* UIKit.framework */; };
+		2E4CCD6D0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DDDA0B0000000000000000 /* MapKit.framework */; };
+		380360500000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71142A300000000000000000 /* Foundation.framework */; };
+		36EB184E0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7C24EC0000000000000000 /* CoreGraphics.framework */; };
+		E47CB5500000000000000000 /* ShowKitAppViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D7F30000000000000000 /* ShowKitAppViewController_iPad.xib */; };
+		21993C100000000000000000 /* ShowKitAppViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252A48AE0000000000000000 /* ShowKitAppViewController_iPhone.xib */; };
+		333B980A0000000000000000 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CCA4A80000000000000000 /* LoginViewController.xib */; };
+		23156DB50000000000000000 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A67A530000000000000000 /* DashboardViewController.xib */; };
+		11A044A00000000000000000 /* ShareScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB10E800000000000000000 /* ShareScreenViewController.xib */; };
+		27EFC8DC0000000000000000 /* GestureDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B80D57A0000000000000000 /* GestureDemoViewController.xib */; };
+		17C99E870000000000000000 /* ScreenDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5AAB250000000000000000 /* ScreenDemoViewController.xib */; };
+		25DAEDE30000000000000000 /* MiscellaneousViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296BFA810000000000000000 /* MiscellaneousViewController.xib */; };
+		33EC3D3F0000000000000000 /* HiddenTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377D49DD0000000000000000 /* HiddenTextFieldViewController.xib */; };
+		1E530E6F0000000000000000 /* HiddenButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E41B0D0000000000000000 /* HiddenButtonViewController.xib */; };
+		E2CE41A00000000000000000 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11BDF0B80000000000000000 /* RegisterViewController.xib */; };
+		2A8265EE0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2E13728C0000000000000000 /* AppDelegate.h */; };
+		3320B0CF0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B1BD6D0000000000000000 /* AppDelegate.m */; };
+		21188E9D0000000000000000 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 24A99B3B0000000000000000 /* LoginViewController.h */; };
+		18147D840000000000000000 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA58A220000000000000000 /* LoginViewController.m */; };
+		2625CCE00000000000000000 /* ShowKitAppViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 29B6D97E0000000000000000 /* ShowKitAppViewController.h */; };
+		42A637500000000000000000 /* ShowKitAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB701300000000000000000 /* ShowKitAppViewController.m */; };
+		15CCBF6F0000000000000000 /* DashboardViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 195DCC0D0000000000000000 /* DashboardViewController.h */; };
+		2B0028070000000000000000 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9134A50000000000000000 /* DashboardViewController.m */; };
+		391177630000000000000000 /* ShareScreenViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA284010000000000000000 /* ShareScreenViewController.h */; };
+		1AA71A960000000000000000 /* ShareScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3827340000000000000000 /* ShareScreenViewController.m */; };
+		351AA48D0000000000000000 /* GestureDemoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 38ABB12B0000000000000000 /* GestureDemoViewController.h */; };
+		288586D60000000000000000 /* GestureDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1693740000000000000000 /* GestureDemoViewController.m */; };
+		3696D6320000000000000000 /* ScreenDemoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E2D00000000000000000 /* ScreenDemoViewController.h */; };
+		182C79650000000000000000 /* ScreenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD86030000000000000000 /* ScreenDemoViewController.m */; };
+		263DC8C10000000000000000 /* MiscellaneousViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 29CED55F0000000000000000 /* MiscellaneousViewController.h */; };
+		19A8AB0A0000000000000000 /* MiscellaneousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39B7A80000000000000000 /* MiscellaneousViewController.m */; };
+		2428EDC80000000000000000 /* HiddenTextFieldViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 27B9FA660000000000000000 /* HiddenTextFieldViewController.h */; };
+		191001B60000000000000000 /* HiddenTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA10E540000000000000000 /* HiddenTextFieldViewController.m */; };
+		18AA3B7E0000000000000000 /* HiddenButtonViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B481C0000000000000000 /* HiddenButtonViewController.h */; };
+		C151DC700000000000000000 /* HiddenButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA62A6500000000000000000 /* HiddenButtonViewController.m */; };
+		1DB779C10000000000000000 /* RegisterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2148865F0000000000000000 /* RegisterViewController.h */; };
+		32EAE2590000000000000000 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367BEEF70000000000000000 /* RegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		169A690D0000000000000000 /* ShowKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ShowKitApp.app"; path = "ShowKitApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104836D80000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		31DDDA0B0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		71142A300000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3A7C24EC0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		11D8D7F30000000000000000 /* ShowKitAppViewController_iPad.xib */ = {isa = PBXFileReference; name = "ShowKitAppViewController_iPad.xib"; path = "Screens/ShowKitAppViewController_iPad.xib"; sourceTree = "<group>"; };
+		252A48AE0000000000000000 /* ShowKitAppViewController_iPhone.xib */ = {isa = PBXFileReference; name = "ShowKitAppViewController_iPhone.xib"; path = "Screens/ShowKitAppViewController_iPhone.xib"; sourceTree = "<group>"; };
+		36CCA4A80000000000000000 /* LoginViewController.xib */ = {isa = PBXFileReference; name = "LoginViewController.xib"; path = "Screens/LoginViewController.xib"; sourceTree = "<group>"; };
+		26A67A530000000000000000 /* DashboardViewController.xib */ = {isa = PBXFileReference; name = "DashboardViewController.xib"; path = "Screens/DashboardViewController.xib"; sourceTree = "<group>"; };
+		4AB10E800000000000000000 /* ShareScreenViewController.xib */ = {isa = PBXFileReference; name = "ShareScreenViewController.xib"; path = "Screens/ShareScreenViewController.xib"; sourceTree = "<group>"; };
+		2B80D57A0000000000000000 /* GestureDemoViewController.xib */ = {isa = PBXFileReference; name = "GestureDemoViewController.xib"; path = "Screens/GestureDemoViewController.xib"; sourceTree = "<group>"; };
+		1B5AAB250000000000000000 /* ScreenDemoViewController.xib */ = {isa = PBXFileReference; name = "ScreenDemoViewController.xib"; path = "Screens/ScreenDemoViewController.xib"; sourceTree = "<group>"; };
+		296BFA810000000000000000 /* MiscellaneousViewController.xib */ = {isa = PBXFileReference; name = "MiscellaneousViewController.xib"; path = "Screens/MiscellaneousViewController.xib"; sourceTree = "<group>"; };
+		377D49DD0000000000000000 /* HiddenTextFieldViewController.xib */ = {isa = PBXFileReference; name = "HiddenTextFieldViewController.xib"; path = "Screens/HiddenTextFieldViewController.xib"; sourceTree = "<group>"; };
+		21E41B0D0000000000000000 /* HiddenButtonViewController.xib */ = {isa = PBXFileReference; name = "HiddenButtonViewController.xib"; path = "Screens/HiddenButtonViewController.xib"; sourceTree = "<group>"; };
+		11BDF0B80000000000000000 /* RegisterViewController.xib */ = {isa = PBXFileReference; name = "RegisterViewController.xib"; path = "Screens/RegisterViewController.xib"; sourceTree = "<group>"; };
+		2E13728C0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		36B1BD6D0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		24A99B3B0000000000000000 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginViewController.h"; path = "LoginViewController.h"; sourceTree = "<group>"; };
+		1BA58A220000000000000000 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginViewController.m"; path = "LoginViewController.m"; sourceTree = "<group>"; };
+		29B6D97E0000000000000000 /* ShowKitAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShowKitAppViewController.h"; path = "ShowKitAppViewController.h"; sourceTree = "<group>"; };
+		7BB701300000000000000000 /* ShowKitAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ShowKitAppViewController.m"; path = "ShowKitAppViewController.m"; sourceTree = "<group>"; };
+		195DCC0D0000000000000000 /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DashboardViewController.h"; path = "DashboardViewController.h"; sourceTree = "<group>"; };
+		2E9134A50000000000000000 /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DashboardViewController.m"; path = "DashboardViewController.m"; sourceTree = "<group>"; };
+		3CA284010000000000000000 /* ShareScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShareScreenViewController.h"; path = "ShareScreenViewController.h"; sourceTree = "<group>"; };
+		1E3827340000000000000000 /* ShareScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ShareScreenViewController.m"; path = "ShareScreenViewController.m"; sourceTree = "<group>"; };
+		38ABB12B0000000000000000 /* GestureDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GestureDemoViewController.h"; path = "GestureDemoViewController.h"; sourceTree = "<group>"; };
+		2C1693740000000000000000 /* GestureDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GestureDemoViewController.m"; path = "GestureDemoViewController.m"; sourceTree = "<group>"; };
+		3A27E2D00000000000000000 /* ScreenDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ScreenDemoViewController.h"; path = "ScreenDemoViewController.h"; sourceTree = "<group>"; };
+		1BBD86030000000000000000 /* ScreenDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ScreenDemoViewController.m"; path = "ScreenDemoViewController.m"; sourceTree = "<group>"; };
+		29CED55F0000000000000000 /* MiscellaneousViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MiscellaneousViewController.h"; path = "MiscellaneousViewController.h"; sourceTree = "<group>"; };
+		1D39B7A80000000000000000 /* MiscellaneousViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MiscellaneousViewController.m"; path = "MiscellaneousViewController.m"; sourceTree = "<group>"; };
+		27B9FA660000000000000000 /* HiddenTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HiddenTextFieldViewController.h"; path = "HiddenTextFieldViewController.h"; sourceTree = "<group>"; };
+		1CA10E540000000000000000 /* HiddenTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HiddenTextFieldViewController.m"; path = "HiddenTextFieldViewController.m"; sourceTree = "<group>"; };
+		1C3B481C0000000000000000 /* HiddenButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HiddenButtonViewController.h"; path = "HiddenButtonViewController.h"; sourceTree = "<group>"; };
+		FA62A6500000000000000000 /* HiddenButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HiddenButtonViewController.m"; path = "HiddenButtonViewController.m"; sourceTree = "<group>"; };
+		2148865F0000000000000000 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RegisterViewController.h"; path = "RegisterViewController.h"; sourceTree = "<group>"; };
+		367BEEF70000000000000000 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RegisterViewController.m"; path = "RegisterViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25117EA10000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72A3A00000000000000000 /* UIKit.framework in Frameworks */,
+				2E4CCD6D0000000000000000 /* MapKit.framework in Frameworks */,
+				380360500000000000000000 /* Foundation.framework in Frameworks */,
+				36EB184E0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52AF02F00000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2FC4A47B0000000000000000 /* ShowKitApp */,
+				FDE160900000000000000000 /* Frameworks */,
+				3A77CA550000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A77CA550000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169A690D0000000000000000 /* ShowKitApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		FDE160900000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104836D80000000000000000 /* UIKit.framework */,
+				31DDDA0B0000000000000000 /* MapKit.framework */,
+				71142A300000000000000000 /* Foundation.framework */,
+				3A7C24EC0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		2FC4A47B0000000000000000 /* ShowKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				2E13728C0000000000000000 /* AppDelegate.h */,
+				195DCC0D0000000000000000 /* DashboardViewController.h */,
+				38ABB12B0000000000000000 /* GestureDemoViewController.h */,
+				1C3B481C0000000000000000 /* HiddenButtonViewController.h */,
+				27B9FA660000000000000000 /* HiddenTextFieldViewController.h */,
+				24A99B3B0000000000000000 /* LoginViewController.h */,
+				29CED55F0000000000000000 /* MiscellaneousViewController.h */,
+				2148865F0000000000000000 /* RegisterViewController.h */,
+				3A27E2D00000000000000000 /* ScreenDemoViewController.h */,
+				3CA284010000000000000000 /* ShareScreenViewController.h */,
+				29B6D97E0000000000000000 /* ShowKitAppViewController.h */,
+				2E613CE30000000000000000 /* Screens */,
+				2A4F82D20000000000000000 /* Supporting Files */,
+			);
+			name = "ShowKitApp";
+			sourceTree = "<group>";
+		};
+		2E613CE30000000000000000 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				26A67A530000000000000000 /* DashboardViewController.xib */,
+				2B80D57A0000000000000000 /* GestureDemoViewController.xib */,
+				21E41B0D0000000000000000 /* HiddenButtonViewController.xib */,
+				377D49DD0000000000000000 /* HiddenTextFieldViewController.xib */,
+				36CCA4A80000000000000000 /* LoginViewController.xib */,
+				296BFA810000000000000000 /* MiscellaneousViewController.xib */,
+				11BDF0B80000000000000000 /* RegisterViewController.xib */,
+				1B5AAB250000000000000000 /* ScreenDemoViewController.xib */,
+				4AB10E800000000000000000 /* ShareScreenViewController.xib */,
+				11D8D7F30000000000000000 /* ShowKitAppViewController_iPad.xib */,
+				252A48AE0000000000000000 /* ShowKitAppViewController_iPhone.xib */,
+			);
+			name = "Screens";
+			sourceTree = "<group>";
+		};
+		2A4F82D20000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B1BD6D0000000000000000 /* AppDelegate.m */,
+				2E9134A50000000000000000 /* DashboardViewController.m */,
+				2C1693740000000000000000 /* GestureDemoViewController.m */,
+				FA62A6500000000000000000 /* HiddenButtonViewController.m */,
+				1CA10E540000000000000000 /* HiddenTextFieldViewController.m */,
+				1BA58A220000000000000000 /* LoginViewController.m */,
+				1D39B7A80000000000000000 /* MiscellaneousViewController.m */,
+				367BEEF70000000000000000 /* RegisterViewController.m */,
+				1BBD86030000000000000000 /* ScreenDemoViewController.m */,
+				1E3827340000000000000000 /* ShareScreenViewController.m */,
+				7BB701300000000000000000 /* ShowKitAppViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06850500000000000000000 /* ShowKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7433300000000000000000 /* Build configuration list for PBXNativeTarget "ShowKitApp" */;
+			buildPhases = (
+				133C3F8B0000000000000000 /* Sources */,
+				25117EA10000000000000000 /* Frameworks */,
+				3C26DF160000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShowKitApp";
+			productName = "ShowKitApp";
+			productReference = 169A690D0000000000000000 /* ShowKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1535F2B00000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1341D5900000000000000000 /* Build configuration list for PBXProject "ShowKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52AF02F00000000000000000;
+			productRefGroup = 3A77CA550000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06850500000000000000000 /* ShowKitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C26DF160000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47CB5500000000000000000 /* ShowKitAppViewController_iPad.xib in Resources */,
+				21993C100000000000000000 /* ShowKitAppViewController_iPhone.xib in Resources */,
+				333B980A0000000000000000 /* LoginViewController.xib in Resources */,
+				23156DB50000000000000000 /* DashboardViewController.xib in Resources */,
+				11A044A00000000000000000 /* ShareScreenViewController.xib in Resources */,
+				27EFC8DC0000000000000000 /* GestureDemoViewController.xib in Resources */,
+				17C99E870000000000000000 /* ScreenDemoViewController.xib in Resources */,
+				25DAEDE30000000000000000 /* MiscellaneousViewController.xib in Resources */,
+				33EC3D3F0000000000000000 /* HiddenTextFieldViewController.xib in Resources */,
+				1E530E6F0000000000000000 /* HiddenButtonViewController.xib in Resources */,
+				E2CE41A00000000000000000 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133C3F8B0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8265EE0000000000000000 /* AppDelegate.h in Sources */,
+				3320B0CF0000000000000000 /* AppDelegate.m in Sources */,
+				21188E9D0000000000000000 /* LoginViewController.h in Sources */,
+				18147D840000000000000000 /* LoginViewController.m in Sources */,
+				2625CCE00000000000000000 /* ShowKitAppViewController.h in Sources */,
+				42A637500000000000000000 /* ShowKitAppViewController.m in Sources */,
+				15CCBF6F0000000000000000 /* DashboardViewController.h in Sources */,
+				2B0028070000000000000000 /* DashboardViewController.m in Sources */,
+				391177630000000000000000 /* ShareScreenViewController.h in Sources */,
+				1AA71A960000000000000000 /* ShareScreenViewController.m in Sources */,
+				351AA48D0000000000000000 /* GestureDemoViewController.h in Sources */,
+				288586D60000000000000000 /* GestureDemoViewController.m in Sources */,
+				3696D6320000000000000000 /* ScreenDemoViewController.h in Sources */,
+				182C79650000000000000000 /* ScreenDemoViewController.m in Sources */,
+				263DC8C10000000000000000 /* MiscellaneousViewController.h in Sources */,
+				19A8AB0A0000000000000000 /* MiscellaneousViewController.m in Sources */,
+				2428EDC80000000000000000 /* HiddenTextFieldViewController.h in Sources */,
+				191001B60000000000000000 /* HiddenTextFieldViewController.m in Sources */,
+				18AA3B7E0000000000000000 /* HiddenButtonViewController.h in Sources */,
+				C151DC700000000000000000 /* HiddenButtonViewController.m in Sources */,
+				1DB779C10000000000000000 /* RegisterViewController.h in Sources */,
+				32EAE2590000000000000000 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD72D860000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3680F77F0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "ShowKitApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1341D5900000000000000000 /* Build configuration list for PBXProject "ShowKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD72D860000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		BE7433300000000000000000 /* Build configuration list for PBXNativeTarget "ShowKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3680F77F0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1535F2B00000000000000000 /* Project object */;
+}
