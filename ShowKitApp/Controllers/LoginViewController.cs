@@ -3,6 +3,7 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using ShowKit;
+using ParseTouch;
 
 namespace ShowKitApp
 {
@@ -75,14 +76,25 @@ namespace ShowKitApp
 				string username = Constants.PREFIX+this.usernameTextField.Text;
 				string password = this.passwordTextField.Text;
 				ShowKit.ShowKit.Login(username,password);
-				Console.WriteLine("hello1");
 
 			}
 		}
 
 		partial void parseLoginAction (NSObject sender)
 		{
-			Console.WriteLine("hello2");
+			string username = this.usernameTextField.Text;
+			string password = this.passwordTextField.Text;
+			ShowKit.SHKParseUser.LogInWithPFUsernameInBackground(username, password, delegate (NSObject luser, NSError lerror, NSString connectionStatus){
+				if (lerror == null && connectionStatus == ShowKit.Constants.SHKConnectionStatusLoggedIn){
+
+				}else{
+					UIAlertView alert = new UIAlertView("Error", lerror.Description, null, "OK");
+					alert.Show ();
+				}
+
+			});
+
+
 		}
 	}
 }

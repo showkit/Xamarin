@@ -1,27 +1,29 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Corey's iPod touch" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShowKitApp/Controllers/Constants.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShowKitApp/Controllers/LoginViewController.cs">
     <Files>
-      <File FileName="ShowKitApp/Controllers/RegisterViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/RegisterViewController.cs" Line="94" Column="7" />
       <File FileName="ShowKitApp/Controllers/RegisterViewController.designer.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/ShareScreenViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/LoginViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/Constants.cs" Line="9" Column="1" />
-      <File FileName="ShowKitApp/Controllers/DashboardViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/LoginViewController.cs" Line="78" Column="44" />
+      <File FileName="ShowKitApp/Controllers/Constants.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/DashboardViewController.cs" Line="108" Column="15" />
       <File FileName="ShowKitApp/Controllers/HiddenTextFieldViewController.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/ShowKitAppViewController.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/GestureDemoViewController.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/HiddenButtonViewController.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/MiscellaneousViewController.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/ScreenDemoViewController.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Main.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="ShowKitApp" expanded="True">
             <Node name="References" expanded="True" />
+            <Node name="ComponentReferenceFolder" expanded="True" />
             <Node name="Controllers" expanded="True">
-              <Node name="Constants.cs" selected="True" />
+              <Node name="LoginViewController.cs" selected="True" />
             </Node>
             <Node name="Screens" expanded="True" />
           </Node>
@@ -30,7 +32,14 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="295" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="270" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="267" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="276" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="280" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="262" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="ShowKitApp/Controllers/DashboardViewController.cs" line="29" offsetX="853" offsetY="314" expression="mainVideoUIView" liveUpdate="False" />

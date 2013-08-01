@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using ParseTouch;
 
 namespace ShowKitApp
 {
@@ -24,6 +25,8 @@ namespace ShowKitApp
 		//
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
+			Parse.SetAppId (Constants.PARSE_APP_ID, Constants.PARSE_CLIENT_KEY);
+
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 
 
@@ -37,6 +40,14 @@ namespace ShowKitApp
 			
 			return true;
 		}
+
+
+		public override void DidEnterBackground (UIApplication application)
+		{
+			// NOTE: Don't call the base implementation on a Model class
+			// see http://docs.xamarin.com/ios/tutorials/Events%2c_Protocols_and_Delegates 
+//			throw new NotImplementedException ();
+		} 
 	}
 }
 

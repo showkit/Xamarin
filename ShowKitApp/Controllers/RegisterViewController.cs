@@ -3,6 +3,8 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using ShowKit;
+using ParseTouch;
+using System.Threading.Tasks;
 
 namespace ShowKitApp
 {
@@ -49,7 +51,32 @@ namespace ShowKitApp
 
 		partial void parseRegisterAction (NSObject sender)
 		{
-//			throw new System.NotImplementedException ();
+			var user = new ParseUser { Username = this.usernameTextField.Text, Password =  this.passwordTextField.Text };
+			user.SignUpAsync ((success, error) =>{
+				if (error == null){
+					parseLogin(user.Username, user.Password);
+				}else{
+					UIAlertView alert = new UIAlertView("Error", error.Description, null, "OK");
+					alert.Show ();
+				}
+			});
+
+
+		}
+
+
+		public void parseLogin(string username, string password)
+		{
+			ShowKit.SHKParseUser.LogInWithPFUsernameInBackground(username, password, delegate (NSObject luser, NSError lerror, NSString connectionStatus){
+				if (lerror == null && connectionStatus == ShowKit.Constants.SHKConnectionStatusLoggedIn){
+
+				}else{
+					UIAlertView alert = new UIAlertView("Error", lerror.Description, null, "OK");
+					alert.Show ();
+				}
+
+			});
+
 		}
 
 		partial void registerAction (NSObject sender)

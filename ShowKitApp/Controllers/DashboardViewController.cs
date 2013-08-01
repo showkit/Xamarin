@@ -3,6 +3,7 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using ShowKit;
+using ParseTouch;
 
 namespace ShowKitApp
 {
@@ -71,7 +72,11 @@ namespace ShowKitApp
 				switch (state)
 				{
 				case ShowKit.Constants.SHKConnectionStatusLoggedIn:
-					ShowKit.ShowKit.Logout();
+					var parseUser = ParseUser.CurrentUser();
+					if(parseUser == null)
+						ShowKit.ShowKit.Logout();
+					else
+						ShowKit.SHKParseUser.LogOut();
 					break;
 				case ShowKit.Constants.SHKConnectionStatusInCall:
 					ShowKit.ShowKit.HangupCall();
@@ -100,7 +105,11 @@ namespace ShowKitApp
 			switch (value) 
 			{
 				case ShowKit.Constants.SHKConnectionStatusCallTerminated:
-					ShowKit.ShowKit.Logout();
+					var parseUser = ParseUser.CurrentUser();
+					if(parseUser == null)
+						ShowKit.ShowKit.Logout();
+					else
+						ShowKit.SHKParseUser.LogOut();
 					break;
 				case ShowKit.Constants.SHKConnectionStatusInCall:
 					setLeftBarButton ();
@@ -113,11 +122,30 @@ namespace ShowKitApp
 				case ShowKit.Constants.SHKConnectionStatusLoginFailed:
 					break;
 				case ShowKit.Constants.SHKConnectionStatusCallIncoming:
+					Console.Write ("callee: " + (NSString)showNotice.UserObject);
+					handleBackgroundCalling ((NSString)showNotice.UserObject);
 					handleCallIncoming ();
+					break;
+			case ShowKit.Constants.SHKConnectionStatusCallFailed:
+					NSError error = (NSError)showNotice.UserObject;
+					this.callContainer.Hidden = false;
+					UIAlertView alert = new UIAlertView("Error", error.LocalizedDescription+" Please try calling again.", null, "OK");
+					alert.Show ();
 					break;
 			}
 		}
 
+		public void handleBackgroundCalling(String caller)
+		{
+			if(UIApplication.SharedApplication.ApplicationState == UIApplicationState.Background)
+			{
+				UILocalNotification ln = new UILocalNotification ();
+				ln.FireDate = DateTime.Now;
+				ln.AlertBody = "Incoming call from " + caller;
+				ln.SoundName = UILocalNotification.DefaultSoundName;
+				UIApplication.SharedApplication.ScheduleLocalNotification(ln);
+			}
+		}
 		public void userMessageReceived(NSNotification notification){
 
 			SHKNotification showNotice;
@@ -141,7 +169,7 @@ namespace ShowKitApp
 					InvokeOnMainThread (delegate { 
 						dashboardViewController.shareGestureButton.Hidden = false;
 					});
-				ShowKit.ShowKit.SetState(new NSString(ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOn), ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
+				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOn, ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
 					Console.Write ("accept share gesture received");
 					break;
 				case "reject share gesture":	
@@ -154,7 +182,7 @@ namespace ShowKitApp
 						this.NavigationItem.LeftBarButtonItem = null;			
 						this.NavigationItem.HidesBackButton = true;
 					});
-				ShowKit.ShowKit.SetState (new NSString (ShowKit.Constants.SHKVideoScaleModeFit), ShowKit.Constants.SHKVideoScaleModeKey);
+					ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFit, ShowKit.Constants.SHKVideoScaleModeKey);
 					break;	
 				case "request conference":
 					setLeftBarButton ();
@@ -188,10 +216,10 @@ namespace ShowKitApp
 				case ShowKit.Constants.SHKRemoteClientAudioStateStopped:
 					break;
 				case ShowKit.Constants.SHKRemoteClientGestureStateStarted:
-				ShowKit.ShowKit.SetState(new NSString (ShowKit.Constants.SHKGestureCaptureModeReceive), ShowKit.Constants.SHKGestureCaptureModeKey);
+				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureModeReceive, ShowKit.Constants.SHKGestureCaptureModeKey);
 					break;
 				case ShowKit.Constants.SHKRemoteClientGestureStateStopped:
-				ShowKit.ShowKit.SetState(new NSString (ShowKit.Constants.SHKGestureCaptureModeOff), ShowKit.Constants.SHKGestureCaptureModeKey);
+				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureModeOff, ShowKit.Constants.SHKGestureCaptureModeKey);
 					break;
 			}
 		}
@@ -200,7 +228,7 @@ namespace ShowKitApp
 			InvokeOnMainThread (delegate { 
 				this.prevVideoUIView.Hidden = false;
 				this.NavigationItem.HidesBackButton = false;
-				ShowKit.ShowKit.SetState (new NSString (ShowKit.Constants.SHKVideoScaleModeFill), ShowKit.Constants.SHKVideoScaleModeKey);
+				ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFill, ShowKit.Constants.SHKVideoScaleModeKey);
 				Console.WriteLine("coming through here right now");
 				this.NavigationItem.SetLeftBarButtonItem(
 					new UIBarButtonItem("share screen", UIBarButtonItemStyle.Plain, (sender,args) => {
@@ -209,7 +237,7 @@ namespace ShowKitApp
 					NSString SHKVideoInputDeviceFrontCamera = new NSString(ShowKit.Constants.SHKVideoInputDeviceFrontCamera);
 					if (state == ShowKit.Constants.SHKVideoInputDeviceScreen)
 					{
-						ShowKit.ShowKit.SetState (new NSString (ShowKit.Constants.SHKVideoScaleModeFill), ShowKit.Constants.SHKVideoScaleModeKey);
+						ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFill, ShowKit.Constants.SHKVideoScaleModeKey);
 
 						this.mainVideoUIView.Hidden = false;
 						this.prevVideoUIView.Hidden = false;
@@ -243,7 +271,15 @@ namespace ShowKitApp
 			if (this.usernameTextField.Text.Length > 0)
 			{
 				dashboardViewController.callContainer.Hidden = true;
-				ShowKit.ShowKit.InitiateCallWithUser(Constants.PREFIX + this.usernameTextField.Text);
+				ParseQuery query = ParseUser.Query();
+				query.WhereKey("username", (NSString)this.usernameTextField.Text);
+				ParseObject[] userObjects = query.FindObjects ();
+				if(userObjects.Length > 0){
+					var user = (ParseUser)userObjects[0];
+					ShowKit.SHKParseUser.InitiateCallWithPFUser(user);
+				}else{
+					ShowKit.ShowKit.InitiateCallWithUser(Constants.PREFIX + this.usernameTextField.Text);
+				}
 			}
 		}
 
@@ -283,9 +319,9 @@ namespace ShowKitApp
 			if(shareGestureOutlet.On){
 				sendMessage(new NSString(@"request share gesture"));
 			}else{
-				ShowKit.ShowKit.SetState(new NSString(ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOff), ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
+				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOff, ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
 
-				ShowKit.ShowKit.SetState(new NSString (ShowKit.Constants.SHKGestureCaptureModeOff), ShowKit.Constants.SHKGestureCaptureModeKey);
+				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureModeOff, ShowKit.Constants.SHKGestureCaptureModeKey);
 				dashboardViewController.shareGestureButton.Hidden = true;
 			}
 		}
@@ -327,7 +363,7 @@ namespace ShowKitApp
 						NSString SHKVideoInputDeviceFrontCamera = new NSString(ShowKit.Constants.SHKVideoInputDeviceFrontCamera);
 						if (state == ShowKit.Constants.SHKVideoInputDeviceScreen)
 						{
-							ShowKit.ShowKit.SetState (new NSString (ShowKit.Constants.SHKVideoScaleModeFill), ShowKit.Constants.SHKVideoScaleModeKey);
+							ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFill, ShowKit.Constants.SHKVideoScaleModeKey);
 							dashboardViewController.mainVideoUIView.Hidden = false;
 							dashboardViewController.prevVideoUIView.Hidden = false;
 							dashboardViewController.shareContainer.Hidden = true;						
@@ -371,7 +407,7 @@ namespace ShowKitApp
 				if (index == 0) 
 				{
 					dashboardViewController.sendMessage (new NSString("accept share gesture"));
-					ShowKit.ShowKit.SetState (new NSString(ShowKit.Constants.SHKGestureCaptureModeBroadcast), ShowKit.Constants.SHKGestureCaptureModeKey);
+					ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKGestureCaptureModeBroadcast, ShowKit.Constants.SHKGestureCaptureModeKey);
 				} else {
 
 				}
