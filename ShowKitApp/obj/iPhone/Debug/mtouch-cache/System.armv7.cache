@@ -1,1 +1,0 @@
---debug --aot=mtriple=armv7-darwin,full,static,asmonly,direct-icalls,no-direct-calls,iphone-abi,outfile=/System.dll.armv7.s "/Users/xiaowoo/projects/Xamarin/ShowKitApp/bin/iPhone/Debug/ShowKitApp.app/System.dll"

@@ -1,6 +1,0 @@
-/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
-/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/obj/iPhone/Debug/mtouch-cache/Link/System.dll
-/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/obj/iPhone/Debug/mtouch-cache/Link/ParseTouch.dll
-/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/obj/iPhone/Debug/mtouch-cache/Link/ShowKit.dll
-/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
-/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/obj/iPhone/Debug/mtouch-cache/Link/ShowKitApp.exe
