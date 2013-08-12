@@ -62,6 +62,7 @@ namespace ShowKitApp
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+
 			this.NavigationItem.HidesBackButton = true;			
 
 			this.NavigationItem.SetRightBarButtonItem(
@@ -181,6 +182,7 @@ namespace ShowKitApp
 						this.prevVideoUIView.Hidden = true;
 						this.NavigationItem.LeftBarButtonItem = null;			
 						this.NavigationItem.HidesBackButton = true;
+						this.bottomToolBar.Hidden = true;
 					});
 					ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFit, ShowKit.Constants.SHKVideoScaleModeKey);
 					break;	
@@ -228,6 +230,7 @@ namespace ShowKitApp
 			InvokeOnMainThread (delegate { 
 				this.prevVideoUIView.Hidden = false;
 				this.NavigationItem.HidesBackButton = false;
+				this.bottomToolBar.Hidden = false;
 				ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFill, ShowKit.Constants.SHKVideoScaleModeKey);
 				Console.WriteLine("coming through here right now");
 				this.NavigationItem.SetLeftBarButtonItem(
@@ -246,6 +249,7 @@ namespace ShowKitApp
 						this.NavigationItem.LeftBarButtonItem.Title = "share screen";
 						ShowKit.ShowKit.SetState(SHKVideoInputDeviceFrontCamera, ShowKit.Constants.SHKVideoInputDeviceKey);
 						this.sendMessage(new NSString("request conference"));
+						this.bottomToolBar.Hidden = false;
 					}else
 					{
 						this.mainVideoUIView.Hidden = true;
@@ -255,6 +259,7 @@ namespace ShowKitApp
 						this.NavigationItem.LeftBarButtonItem.Title = "conference";
 						ShowKit.ShowKit.SetState(SHKVideoInputDeviceScreen, ShowKit.Constants.SHKVideoInputDeviceKey);
 						dashboardViewController.sendMessage(new NSString("request share screen"));
+						this.bottomToolBar.Hidden = true;
 					}
 					if (this.usernameTextField.IsFirstResponder){
 						this.usernameTextField.ResignFirstResponder();
@@ -331,11 +336,63 @@ namespace ShowKitApp
 			sendMessage(new NSString("whatsup"));
 		}
 
+		partial void framebufferAction (NSObject sender)
+		{
+			UIBarButtonItem framebufferButton = (UIBarButtonItem)sender;
+			switch(framebufferButton.Title){
+				case "framebuffer":
+					modifyFrameBuffer("<<");
+					framebufferButton.Title = "+framebuffer";
+					break;
+				case "+framebuffer":
+					modifyFrameBuffer(">>");	
+					framebufferButton.Title = "-framebuffer";
+					break;
+				case "-framebuffer":
+					modifyFrameBuffer("");
+					framebufferButton.Title = "framebuffer";
+					break;
+			}
+		}
+
+		public unsafe void modifyFrameBuffer(String type)
+		{
+			ShowKit.ShowKit.SetVideoBufferCallBack (delegate (IntPtr data, int width, int height, PixelFormat pixelFormat, bool isEncoding) {
+				if(type != ""){
+					int length = 0;
+
+					switch (pixelFormat)
+					{
+						case PixelFormat.BGRA32:
+						length = width * height * 4;
+						break;
+						case PixelFormat.NV12:
+						length = (width * height * 3)/2;
+
+						break;
+						case PixelFormat.YUV420:
+						length = (width * height * 3)/2;
+						break;
+					}
+
+					byte* ptr = (byte*)data;
+
+					if (isEncoding){
+						for (int i = 0; i < length; i++) {
+							if (type == "<<")
+								*(ptr + i) = (byte)(*(ptr + i) << 2);
+							else if (type == ">>")
+								*(ptr + i) = (byte)(*(ptr + i) >> 2);
+						}
+					}
+				}
+			});
+		}
+
 		public void logoutAction ()
 		{
 
 		}
-
 
 		public void handleCallIncoming ()
 		{
@@ -371,6 +428,7 @@ namespace ShowKitApp
 							dashboardViewController.NavigationItem.LeftBarButtonItem.Title = "share screen";
 							ShowKit.ShowKit.SetState(SHKVideoInputDeviceFrontCamera, ShowKit.Constants.SHKVideoInputDeviceKey);
 							dashboardViewController.sendMessage(new NSString("request conference"));
+							dashboardViewController.bottomToolBar.Hidden = false;
 						}else
 						{
 							dashboardViewController.mainVideoUIView.Hidden = true;
@@ -380,6 +438,7 @@ namespace ShowKitApp
 							dashboardViewController.NavigationItem.LeftBarButtonItem.Title = "conference";
 							ShowKit.ShowKit.SetState(SHKVideoInputDeviceScreen, ShowKit.Constants.SHKVideoInputDeviceKey);
 							dashboardViewController.sendMessage(new NSString("request share screen"));
+							dashboardViewController.bottomToolBar.Hidden = true;
 						}
 
 						if (dashboardViewController.usernameTextField.IsFirstResponder){

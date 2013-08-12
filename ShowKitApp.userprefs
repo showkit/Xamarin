@@ -1,44 +1,39 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Corey's iPod touch" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShowKitApp/Controllers/LoginViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShowKitApp/Controllers/DashboardViewController.cs">
     <Files>
-      <File FileName="ShowKitApp/Controllers/RegisterViewController.cs" Line="94" Column="7" />
-      <File FileName="ShowKitApp/Controllers/RegisterViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/ShareScreenViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/LoginViewController.cs" Line="78" Column="44" />
       <File FileName="ShowKitApp/Controllers/Constants.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/DashboardViewController.cs" Line="108" Column="15" />
-      <File FileName="ShowKitApp/Controllers/HiddenTextFieldViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/ShowKitAppViewController.cs" Line="1" Column="1" />
       <File FileName="ShowKitApp/Controllers/GestureDemoViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/HiddenButtonViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/MiscellaneousViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Controllers/ScreenDemoViewController.cs" Line="1" Column="1" />
-      <File FileName="ShowKitApp/Main.cs" Line="1" Column="1" />
+      <File FileName="ShowKitApp/Controllers/DashboardViewController.cs" Line="366" Column="3" />
+      <File FileName="ShowKitApp/Controllers/DashboardViewController.designer.cs" Line="36" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="ShowKitApp" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="ComponentReferenceFolder" expanded="True" />
             <Node name="Controllers" expanded="True">
-              <Node name="LoginViewController.cs" selected="True" />
+              <Node name="DashboardViewController.cs" expanded="True" />
             </Node>
-            <Node name="Screens" expanded="True" />
+            <Node name="Screens" expanded="True">
+              <Node name="DashboardViewController.xib" selected="True" />
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="295" column="1" />
-      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="270" column="1" />
-      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="267" column="1" />
-      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="276" column="1" />
-      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="280" column="1" />
-      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="262" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="729" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="726" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="735" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="739" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="721" column="1" />
+      <Breakpoint file="/Users/xiaowoo/Desktop/newxamarin/Xamarin/ShowKitApp/Controllers/DashboardViewController.cs" line="488" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

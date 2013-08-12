@@ -1,16 +1,20 @@
 // WARNING
 //
 // This file has been generated automatically by Xamarin Studio to store outlets and
-// actions made in the Xcode designer. If it is removed, they will be lost.
+// actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
 using MonoTouch.Foundation;
+using System.CodeDom.Compiler;
 
 namespace ShowKitApp
 {
 	[Register ("DashboardViewController")]
 	partial class DashboardViewController
 	{
+		[Outlet]
+		MonoTouch.UIKit.UIToolbar bottomToolBar { get; set; }
+
 		[Outlet]
 		MonoTouch.UIKit.UIScrollView callContainer { get; set; }
 
@@ -34,6 +38,9 @@ namespace ShowKitApp
 
 		[Outlet]
 		MonoTouch.UIKit.UITextField usernameTextField { get; set; }
+
+		[Action ("framebufferAction:")]
+		partial void framebufferAction (MonoTouch.Foundation.NSObject sender);
 
 		[Action ("makeCallAction:")]
 		partial void makeCallAction (MonoTouch.Foundation.NSObject sender);
@@ -77,6 +84,11 @@ namespace ShowKitApp
 				shareContainer = null;
 			}
 
+			if (shareGestureButton != null) {
+				shareGestureButton.Dispose ();
+				shareGestureButton = null;
+			}
+
 			if (shareGestureOutlet != null) {
 				shareGestureOutlet.Dispose ();
 				shareGestureOutlet = null;
@@ -87,9 +99,9 @@ namespace ShowKitApp
 				usernameTextField = null;
 			}
 
-			if (shareGestureButton != null) {
-				shareGestureButton.Dispose ();
-				shareGestureButton = null;
+			if (bottomToolBar != null) {
+				bottomToolBar.Dispose ();
+				bottomToolBar = null;
 			}
 		}
 	}
