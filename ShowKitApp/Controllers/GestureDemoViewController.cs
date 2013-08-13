@@ -2,6 +2,7 @@ using System;
 using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using OpenGLES20Example;
 
 namespace ShowKitApp
 {
@@ -9,6 +10,8 @@ namespace ShowKitApp
 	{
 		MiscellaneousViewController miscellaneousViewController;
 		HiddenTextFieldViewController hiddenTextFieldViewController;
+		GLViewController glViewController;
+
 
 		public GestureDemoViewController () : base ("GestureDemoViewController", null)
 		{
@@ -105,7 +108,13 @@ namespace ShowKitApp
 		{
 			this.hiddenTextFieldViewController = new HiddenTextFieldViewController();
 			this.NavigationController.PushViewController(this.hiddenTextFieldViewController, true);
+		}
 
+		partial void openglAction (NSObject sender)
+		{
+			this.glViewController = new GLViewController();
+			this.NavigationController.PushViewController(this.glViewController, true);
+			(this.glViewController.View as GLView).StartAnimation ();
 		}
 
 	}
