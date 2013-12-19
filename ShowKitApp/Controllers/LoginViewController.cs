@@ -3,7 +3,6 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using ShowKit;
-using ParseTouch;
 
 namespace ShowKitApp
 {
@@ -11,16 +10,13 @@ namespace ShowKitApp
 	{
 		NSObject observer;
 
-		DashboardViewController dashboardViewController;
-		public LoginViewController () : base ("LoginViewController", null)
-		{
-		}
+		public LoginViewController () : base ("LoginViewController", null) {}
 
 		public override void DidReceiveMemoryWarning ()
 		{
 			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning ();
-			
+
 			// Release any cached data, images, etc that aren't in use.
 		}
 
@@ -44,6 +40,10 @@ namespace ShowKitApp
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+			NSUserDefaults user = NSUserDefaults.StandardUserDefaults;
+			String username = user.StringForKey ("username");
+			if (username != null)
+				this.usernameTextField.Text = username;
 		}
 
 
@@ -58,10 +58,7 @@ namespace ShowKitApp
 
 
 			if (value == ShowKit.Constants.SHKConnectionStatusLoggedIn) {
-
-
-				this.dashboardViewController = new DashboardViewController ();
-				this.NavigationController.PushViewController (this.dashboardViewController, true);
+				this.NavigationController.PushViewController (new DashboardViewController (), true);
 				Console.WriteLine("shk status changed "+value);
 
 			}
@@ -71,31 +68,15 @@ namespace ShowKitApp
 
 		partial void loginAction (NSObject sender)
 		{
-			if (this.usernameTextField.Text.Length > 0 && this.passwordTextField.Text.Length > 0)
+			if (this.usernameTextField.Text != null && this.passwordTextField.Text != null)
 			{
+				NSUserDefaults user = NSUserDefaults.StandardUserDefaults;
 				string username = Constants.PREFIX+this.usernameTextField.Text;
+				user.SetString(this.usernameTextField.Text, "username");
 				string password = this.passwordTextField.Text;
 				ShowKit.ShowKit.Login(username,password);
 
 			}
 		}
-
-		partial void parseLoginAction (NSObject sender)
-		{
-			string username = this.usernameTextField.Text;
-			string password = this.passwordTextField.Text;
-			ShowKit.SHKParseUser.LogInWithPFUsernameInBackground(username, password, delegate (NSObject luser, NSError lerror, NSString connectionStatus){
-				if (lerror == null && connectionStatus == ShowKit.Constants.SHKConnectionStatusLoggedIn){
-
-				}else{
-					UIAlertView alert = new UIAlertView("Error", lerror.Description, null, "OK");
-					alert.Show ();
-				}
-
-			});
-
-
-		}
 	}
 }
-

@@ -23,7 +23,8 @@
     <ConsolePause>false</ConsolePause>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchI18n />
+    <MtouchI18n>
+    </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -48,9 +49,11 @@
     <ConsolePause>false</ConsolePause>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchI18n />
+    <MtouchI18n>
+    </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
-    <IpaPackageName />
+    <IpaPackageName>
+    </IpaPackageName>
     <MtouchExtraArgs>-v -v -v --compiler:clang++</MtouchExtraArgs>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -63,7 +66,8 @@
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchExtraArgs>--compiler:clang++</MtouchExtraArgs>
-    <MtouchI18n />
+    <MtouchI18n>
+    </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -100,15 +104,11 @@
       <HintPath>..\..\..\..\projects\ShowKit\ShowKit\bin\Release\ShowKit.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK-1.0" />
-    <Reference Include="ParseTouch">
-      <HintPath>..\Components\parse-1.1.1\lib\ios\ParseTouch.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Screens\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Controllers\OpenGL\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -157,11 +157,6 @@
     <Compile Include="Controllers\RegisterViewController.designer.cs">
       <DependentUpon>RegisterViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\OpenGL\GLViewController.cs" />
-    <Compile Include="Controllers\OpenGL\GLCommon.cs" />
-    <Compile Include="Controllers\OpenGL\GLProgram.cs" />
-    <Compile Include="Controllers\OpenGL\GLTexture.cs" />
-    <Compile Include="Controllers\OpenGL\GLView.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Screens\ShowKitAppViewController_iPad.xib" />
@@ -178,15 +173,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <XamarinComponentReference Include="parse">
-      <InstallationInProgress>False</InstallationInProgress>
-      <Version>1.1.1</Version>
-      <Visible>False</Visible>
-    </XamarinComponentReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Shader.fsh" />
-    <BundleResource Include="Shader.vsh" />
     <BundleResource Include="Resources\DieTexture.png" />
   </ItemGroup>
 </Project>

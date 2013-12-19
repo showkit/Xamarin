@@ -3,7 +3,6 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using ShowKit;
-using ParseTouch;
 using System.Threading.Tasks;
 
 namespace ShowKitApp
@@ -12,17 +11,13 @@ namespace ShowKitApp
 	{
 		NSObject observer;
 
-		DashboardViewController dashboardViewController;
-
-		public RegisterViewController () : base ("RegisterViewController", null)
-		{
-		}
+		public RegisterViewController () : base ("RegisterViewController", null) {}
 
 		public override void DidReceiveMemoryWarning ()
 		{
 			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning ();
-			
+
 			// Release any cached data, images, etc that aren't in use.
 		}
 
@@ -45,45 +40,17 @@ namespace ShowKitApp
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			
+
 			// Perform any additional setup after loading the view, typically from a nib.
-		}
-
-		partial void parseRegisterAction (NSObject sender)
-		{
-			var user = new ParseUser { Username = this.usernameTextField.Text, Password =  this.passwordTextField.Text };
-			user.SignUpAsync ((success, error) =>{
-				if (error == null){
-					parseLogin(user.Username, user.Password);
-				}else{
-					UIAlertView alert = new UIAlertView("Error", error.Description, null, "OK");
-					alert.Show ();
-				}
-			});
-
-
-		}
-
-
-		public void parseLogin(string username, string password)
-		{
-			ShowKit.SHKParseUser.LogInWithPFUsernameInBackground(username, password, delegate (NSObject luser, NSError lerror, NSString connectionStatus){
-				if (lerror == null && connectionStatus == ShowKit.Constants.SHKConnectionStatusLoggedIn){
-
-				}else{
-					UIAlertView alert = new UIAlertView("Error", lerror.Description, null, "OK");
-					alert.Show ();
-				}
-
-			});
-
 		}
 
 		partial void registerAction (NSObject sender)
 		{
-			if(this.usernameTextField.Text.Length > 0 && this.passwordTextField.Text.Length > 0)
+			if(this.usernameTextField.Text != null && this.passwordTextField.Text != null)
 			{
 				string uname = this.usernameTextField.Text;
+				NSUserDefaults user = NSUserDefaults.StandardUserDefaults;
+				user.SetString(uname, "username");
 				string password = this.passwordTextField.Text;
 				ShowKit.ShowKit.RegisterUser(uname,password, Constants.APIKEY, delegate (NSString username, NSError error){
 					if (error == null){
@@ -107,11 +74,9 @@ namespace ShowKitApp
 
 
 			if (value == ShowKit.Constants.SHKConnectionStatusLoggedIn) {
-				this.dashboardViewController = new DashboardViewController ();
-				this.NavigationController.PushViewController (this.dashboardViewController, true);
+				this.NavigationController.PushViewController (new DashboardViewController (), true);
 			}
 
 		}
 	}
 }
-

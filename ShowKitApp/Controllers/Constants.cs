@@ -10,4 +10,3 @@ public static class Constants
 	public const string PARSE_APP_ID = "INSERT_YOUR_PARSE_APP_ID_HERE";
 	public const string PARSE_CLIENT_KEY = "INSERT_YOUR_PARSE_CLIENT_KEY";	
 }
-
