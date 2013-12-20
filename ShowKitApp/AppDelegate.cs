@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
-using ParseTouch;
 
 namespace ShowKitApp
 {
@@ -25,15 +24,12 @@ namespace ShowKitApp
 		//
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
-			Parse.SetAppId (Constants.PARSE_APP_ID, Constants.PARSE_CLIENT_KEY);
 
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 
 
 			var rootNavigationController = new UINavigationController ();
-
-			ShowKitAppViewController homeScreen = new ShowKitAppViewController ();
-			rootNavigationController.PushViewController (homeScreen, false);
+			rootNavigationController.PushViewController (new ShowKitAppViewController (), false);
 
 			window.RootViewController = rootNavigationController;
 			window.MakeKeyAndVisible ();

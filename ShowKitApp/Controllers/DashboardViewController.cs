@@ -3,7 +3,6 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using ShowKit;
-using ParseTouch;
 
 namespace ShowKitApp
 {
@@ -18,9 +17,6 @@ namespace ShowKitApp
 		DashboardViewController dashboardViewController;
 		ShareScreenViewController shareScreenViewController;
 
-		GestureDemoViewController gestureDemoViewController;
-
-		ScreenDemoViewController screenDemoViewController;
 		public DashboardViewController () : base ("DashboardViewController", null)
 		{
 		}
@@ -73,11 +69,7 @@ namespace ShowKitApp
 				switch (state)
 				{
 				case ShowKit.Constants.SHKConnectionStatusLoggedIn:
-					var parseUser = ParseUser.CurrentUser();
-					if(parseUser == null)
-						ShowKit.ShowKit.Logout();
-					else
-						ShowKit.SHKParseUser.LogOut();
+					ShowKit.ShowKit.Logout();
 					break;
 				case ShowKit.Constants.SHKConnectionStatusInCall:
 					ShowKit.ShowKit.HangupCall();
@@ -106,11 +98,7 @@ namespace ShowKitApp
 			switch (value) 
 			{
 				case ShowKit.Constants.SHKConnectionStatusCallTerminated:
-					var parseUser = ParseUser.CurrentUser();
-					if(parseUser == null)
-						ShowKit.ShowKit.Logout();
-					else
-						ShowKit.SHKParseUser.LogOut();
+					ShowKit.ShowKit.Logout();
 					break;
 				case ShowKit.Constants.SHKConnectionStatusInCall:
 					setLeftBarButton ();
@@ -182,7 +170,6 @@ namespace ShowKitApp
 						this.prevVideoUIView.Hidden = true;
 						this.NavigationItem.LeftBarButtonItem = null;			
 						this.NavigationItem.HidesBackButton = true;
-						this.bottomToolBar.Hidden = true;
 					});
 					ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFit, ShowKit.Constants.SHKVideoScaleModeKey);
 					break;	
@@ -230,7 +217,6 @@ namespace ShowKitApp
 			InvokeOnMainThread (delegate { 
 				this.prevVideoUIView.Hidden = false;
 				this.NavigationItem.HidesBackButton = false;
-				this.bottomToolBar.Hidden = false;
 				ShowKit.ShowKit.SetState ((NSString)ShowKit.Constants.SHKVideoScaleModeFill, ShowKit.Constants.SHKVideoScaleModeKey);
 				Console.WriteLine("coming through here right now");
 				this.NavigationItem.SetLeftBarButtonItem(
@@ -249,7 +235,6 @@ namespace ShowKitApp
 						this.NavigationItem.LeftBarButtonItem.Title = "share screen";
 						ShowKit.ShowKit.SetState(SHKVideoInputDeviceFrontCamera, ShowKit.Constants.SHKVideoInputDeviceKey);
 						this.sendMessage(new NSString("request conference"));
-						this.bottomToolBar.Hidden = false;
 					}else
 					{
 						this.mainVideoUIView.Hidden = true;
@@ -259,7 +244,6 @@ namespace ShowKitApp
 						this.NavigationItem.LeftBarButtonItem.Title = "conference";
 						ShowKit.ShowKit.SetState(SHKVideoInputDeviceScreen, ShowKit.Constants.SHKVideoInputDeviceKey);
 						dashboardViewController.sendMessage(new NSString("request share screen"));
-						this.bottomToolBar.Hidden = true;
 					}
 					if (this.usernameTextField.IsFirstResponder){
 						this.usernameTextField.ResignFirstResponder();
@@ -276,15 +260,7 @@ namespace ShowKitApp
 			if (this.usernameTextField.Text.Length > 0)
 			{
 				dashboardViewController.callContainer.Hidden = true;
-				ParseQuery query = ParseUser.Query();
-				query.WhereKey("username", (NSString)this.usernameTextField.Text);
-				ParseObject[] userObjects = query.FindObjects ();
-				if(userObjects.Length > 0){
-					var user = (ParseUser)userObjects[0];
-					ShowKit.SHKParseUser.InitiateCallWithPFUser(user);
-				}else{
-					ShowKit.ShowKit.InitiateCallWithUser(Constants.PREFIX + this.usernameTextField.Text);
-				}
+				ShowKit.ShowKit.InitiateCallWithUser(Constants.PREFIX + this.usernameTextField.Text);
 			}
 		}
 
@@ -308,15 +284,12 @@ namespace ShowKitApp
 
 		partial void shareScreenAction (NSObject sender)
 		{
-			this.screenDemoViewController = new ScreenDemoViewController();
-			this.NavigationController.PushViewController(this.screenDemoViewController, true);		
+			this.NavigationController.PushViewController(new ScreenDemoViewController(), true);		
 		}
 
 		partial void shareGestureAction (NSObject sender)
 		{
-
-			this.gestureDemoViewController = new GestureDemoViewController();
-			this.NavigationController.PushViewController(this.gestureDemoViewController, true);
+			this.NavigationController.PushViewController(new GestureDemoViewController(), true);
 		}
 
 		partial void shareGestureSwitch (NSObject sender)
@@ -336,58 +309,58 @@ namespace ShowKitApp
 			sendMessage(new NSString("whatsup"));
 		}
 
-		partial void framebufferAction (NSObject sender)
-		{
-			UIBarButtonItem framebufferButton = (UIBarButtonItem)sender;
-			switch(framebufferButton.Title){
-				case "framebuffer":
-					modifyFrameBuffer("<<");
-					framebufferButton.Title = "+framebuffer";
-					break;
-				case "+framebuffer":
-					modifyFrameBuffer(">>");	
-					framebufferButton.Title = "-framebuffer";
-					break;
-				case "-framebuffer":
-					modifyFrameBuffer("");
-					framebufferButton.Title = "framebuffer";
-					break;
-			}
-		}
+//		partial void framebufferAction (NSObject sender)
+//		{
+//			UIBarButtonItem framebufferButton = (UIBarButtonItem)sender;
+//			switch(framebufferButton.Title){
+//				case "framebuffer":
+//					modifyFrameBuffer("<<");
+//					framebufferButton.Title = "+framebuffer";
+//					break;
+//				case "+framebuffer":
+//					modifyFrameBuffer(">>");	
+//					framebufferButton.Title = "-framebuffer";
+//					break;
+//				case "-framebuffer":
+//					modifyFrameBuffer("");
+//					framebufferButton.Title = "framebuffer";
+//					break;
+//			}
+//		}
 
-		public unsafe void modifyFrameBuffer(String type)
-		{
-			ShowKit.ShowKit.SetVideoBufferCallBack (delegate (IntPtr data, int width, int height, PixelFormat pixelFormat, bool isEncoding) {
-				if(type != ""){
-					int length = 0;
-
-					switch (pixelFormat)
-					{
-						case PixelFormat.BGRA32:
-						length = width * height * 4;
-						break;
-						case PixelFormat.NV12:
-						length = (width * height * 3)/2;
-
-						break;
-						case PixelFormat.YUV420:
-						length = (width * height * 3)/2;
-						break;
-					}
-
-					byte* ptr = (byte*)data;
-
-					if (isEncoding){
-						for (int i = 0; i < length; i++) {
-							if (type == "<<")
-								*(ptr + i) = (byte)(*(ptr + i) << 2);
-							else if (type == ">>")
-								*(ptr + i) = (byte)(*(ptr + i) >> 2);
-						}
-					}
-				}
-			});
-		}
+//		public unsafe void modifyFrameBuffer(String type)
+//		{
+//			ShowKit.ShowKit.SetVideoBufferCallBack (delegate (IntPtr data, int width, int height, PixelFormat pixelFormat, bool isEncoding) {
+//				if(type != ""){
+//					int length = 0;
+//
+//					switch (pixelFormat)
+//					{
+//						case PixelFormat.BGRA32:
+//						length = width * height * 4;
+//						break;
+//						case PixelFormat.NV12:
+//						length = (width * height * 3)/2;
+//
+//						break;
+//						case PixelFormat.YUV420:
+//						length = (width * height * 3)/2;
+//						break;
+//					}
+//
+//					byte* ptr = (byte*)data;
+//
+//					if (isEncoding){
+//						for (int i = 0; i < length; i++) {
+//							if (type == "<<")
+//								*(ptr + i) = (byte)(*(ptr + i) << 2);
+//							else if (type == ">>")
+//								*(ptr + i) = (byte)(*(ptr + i) >> 2);
+//						}
+//					}
+//				}
+//			});
+//		}
 
 		public void logoutAction ()
 		{
@@ -428,7 +401,6 @@ namespace ShowKitApp
 							dashboardViewController.NavigationItem.LeftBarButtonItem.Title = "share screen";
 							ShowKit.ShowKit.SetState(SHKVideoInputDeviceFrontCamera, ShowKit.Constants.SHKVideoInputDeviceKey);
 							dashboardViewController.sendMessage(new NSString("request conference"));
-							dashboardViewController.bottomToolBar.Hidden = false;
 						}else
 						{
 							dashboardViewController.mainVideoUIView.Hidden = true;
@@ -438,7 +410,6 @@ namespace ShowKitApp
 							dashboardViewController.NavigationItem.LeftBarButtonItem.Title = "conference";
 							ShowKit.ShowKit.SetState(SHKVideoInputDeviceScreen, ShowKit.Constants.SHKVideoInputDeviceKey);
 							dashboardViewController.sendMessage(new NSString("request share screen"));
-							dashboardViewController.bottomToolBar.Hidden = true;
 						}
 
 						if (dashboardViewController.usernameTextField.IsFirstResponder){

@@ -9,9 +9,6 @@ namespace ShowKitApp
 	public partial class ShowKitAppViewController : UIViewController
 	{
 
-		LoginViewController loginViewController;
-		RegisterViewController registerViewController;
-
 		static bool UserInterfaceIdiomIsPhone {
 			get { return UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone; }
 		}
@@ -25,26 +22,30 @@ namespace ShowKitApp
 		{
 			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning ();
-			
+
 			// Release any cached data, images, etc that aren't in use.
 		}
 
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+			NSUserDefaults user = NSUserDefaults.StandardUserDefaults;
+			String username = user.StringForKey ("username");
+			if (username != null) {
+				this.loginAction (this);
+			} else {
+				this.registerAction (this);
+			}
 		}
 
 		partial void loginAction (NSObject sender)
 		{
-
-			this.loginViewController = new LoginViewController();
-			this.NavigationController.PushViewController(this.loginViewController, true);
+			this.NavigationController.PushViewController(new LoginViewController(), true);
 		}
 
 		partial void registerAction (NSObject sender)
 		{
-			this.registerViewController = new RegisterViewController();
-			this.NavigationController.PushViewController(this.registerViewController, true);
+			this.NavigationController.PushViewController(new RegisterViewController(), true);
 		}
 
 		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
@@ -60,4 +61,3 @@ namespace ShowKitApp
 
 	}
 }
-

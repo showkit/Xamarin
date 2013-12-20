@@ -100,10 +100,10 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
     <Reference Include="MonoTouch.Dialog-1" />
-    <Reference Include="ShowKit">
-      <HintPath>..\..\..\..\projects\ShowKit\ShowKit\bin\Release\ShowKit.dll</HintPath>
-    </Reference>
     <Reference Include="OpenTK-1.0" />
+    <Reference Include="ShowKit">
+      <HintPath>..\ShowKit.xamarin\ShowKit.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -174,5 +174,10 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="Resources\DieTexture.png" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp-all-target-headers.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp-generated-files.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp-own-target-headers.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp-project-headers.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp.hmap" />
   </ItemGroup>
 </Project>
