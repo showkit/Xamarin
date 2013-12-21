@@ -155,10 +155,7 @@ namespace ShowKitApp
 					});
 					break;
 				case "accept share gesture":
-					InvokeOnMainThread (delegate { 
-						dashboardViewController.shareGestureButton.Hidden = false;
-					});
-				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOn, ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
+					ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOn, ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
 					Console.Write ("accept share gesture received");
 					break;
 				case "reject share gesture":	
@@ -231,16 +228,17 @@ namespace ShowKitApp
 						this.mainVideoUIView.Hidden = false;
 						this.prevVideoUIView.Hidden = false;
 						this.shareContainer.Hidden = true;
-						this.sendButton.Hidden = true;
+							//this.sendButton.Hidden = true;
 						this.NavigationItem.LeftBarButtonItem.Title = "share screen";
 						ShowKit.ShowKit.SetState(SHKVideoInputDeviceFrontCamera, ShowKit.Constants.SHKVideoInputDeviceKey);
 						this.sendMessage(new NSString("request conference"));
-					}else
-					{
+					}else {
 						this.mainVideoUIView.Hidden = true;
 						this.prevVideoUIView.Hidden = true;
 						this.shareContainer.Hidden = false;
-						this.sendButton.Hidden = false;
+							//this.shareContainer.BackgroundColor = UIColor.Red;
+						this.shareContainer.Frame = this.View.Frame;
+							//this.sendButton.Hidden = false;
 						this.NavigationItem.LeftBarButtonItem.Title = "conference";
 						ShowKit.ShowKit.SetState(SHKVideoInputDeviceScreen, ShowKit.Constants.SHKVideoInputDeviceKey);
 						dashboardViewController.sendMessage(new NSString("request share screen"));
@@ -300,7 +298,6 @@ namespace ShowKitApp
 				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureLocalIndicatorsOff, ShowKit.Constants.SHKGestureCaptureLocalIndicatorsModeKey);
 
 				ShowKit.ShowKit.SetState((NSString)ShowKit.Constants.SHKGestureCaptureModeOff, ShowKit.Constants.SHKGestureCaptureModeKey);
-				dashboardViewController.shareGestureButton.Hidden = true;
 			}
 		}
 
@@ -397,7 +394,7 @@ namespace ShowKitApp
 							dashboardViewController.mainVideoUIView.Hidden = false;
 							dashboardViewController.prevVideoUIView.Hidden = false;
 							dashboardViewController.shareContainer.Hidden = true;						
-							dashboardViewController.sendButton.Hidden = true;
+								//dashboardViewController.sendButton.Hidden = true;
 							dashboardViewController.NavigationItem.LeftBarButtonItem.Title = "share screen";
 							ShowKit.ShowKit.SetState(SHKVideoInputDeviceFrontCamera, ShowKit.Constants.SHKVideoInputDeviceKey);
 							dashboardViewController.sendMessage(new NSString("request conference"));
@@ -406,7 +403,7 @@ namespace ShowKitApp
 							dashboardViewController.mainVideoUIView.Hidden = true;
 							dashboardViewController.prevVideoUIView.Hidden = true;
 							dashboardViewController.shareContainer.Hidden = false;
-							dashboardViewController.sendButton.Hidden = false;
+								//dashboardViewController.sendButton.Hidden = false;
 							dashboardViewController.NavigationItem.LeftBarButtonItem.Title = "conference";
 							ShowKit.ShowKit.SetState(SHKVideoInputDeviceScreen, ShowKit.Constants.SHKVideoInputDeviceKey);
 							dashboardViewController.sendMessage(new NSString("request share screen"));
