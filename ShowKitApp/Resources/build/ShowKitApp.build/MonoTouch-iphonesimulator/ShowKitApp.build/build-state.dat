@@ -1,0 +1,496 @@
+TShowKitApp
+v6
+r1
+cCheck dependencies
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052A61FE600000000000003B5
+t1386618854
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052A61FEA00000000000001A0
+t1386618858
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052A61FEB0000000000445870
+t1386618859
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052A61FEC000000000088C680
+t1386618860
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000052A61FEC00000000002C78D0
+t1386618860
+s2914512
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052A61FEE0000000001DB9910
+t1386618862
+s31168784
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m
+c0000000052B37F140000000000000144
+t1387495188
+s324
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m
+c0000000052B4E31F0000000000000415
+t1387586335
+s1045
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m
+c0000000052B38010000000000000037B
+t1387495440
+s891
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m
+c0000000052B375D90000000000000162
+t1387492825
+s354
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m
+c0000000052B375D90000000000000197
+t1387492825
+s407
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m
+c0000000052B4F6FB0000000000000212
+t1387591419
+s530
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m
+c0000000052B375D900000000000001E0
+t1387492825
+s480
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m
+c0000000052B37ADE000000000000021E
+t1387494110
+s542
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m
+c0000000052B375D9000000000000015E
+t1387492825
+s350
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m
+c0000000052B375D90000000000000160
+t1387492825
+s352
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m
+c0000000052B3836400000000000001B1
+t1387496292
+s433
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp
+t2
+s0
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o
+t1389120709
+s3188
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o
+t1389120709
+s62176
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o
+t1389120709
+s48656
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o
+t1389120709
+s38952
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o
+t1389120709
+s39984
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o
+t1389120709
+s47480
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o
+t1389120709
+s47920
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o
+t1389120709
+s47604
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o
+t1389120709
+s38936
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o
+t1389120709
+s38944
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitApp.LinkFileList
+c0000000052CC4CC5000000000000079B
+t1389120709
+s1947
+
+N/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o
+t1389120709
+s40348
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m
+r0
+
+CBuild AST from /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5e307c45847cb841^2aac8445847cb841^-1696"warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.h' of type sourcecode.c.h for architecture i386warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.h' of type sourcecode.c.h for architecture i38611(21%IDEActivityLogMessage2@141"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@149"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@154"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@153"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@155"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@155"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@154"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@157"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@159"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@156"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@152"Warning: no rule to process file '/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.h' of type sourcecode.c.h for architecture i386-410813509#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"A3995385-ADFB-4A3C-B67E-34FFAA0600C6-
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522414
+e410813509.798391
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m206"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercc5e8645847cb841^c861cc45847cb841^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m0000000000000000^3472"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/AppDelegate.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o36"6083E328-9923-49EB-9243-CE7DDB50AD87-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522465
+e410813509.820392
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m231"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o DashboardViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler145e8645847cb841^ff05d245847cb841^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m0000000000000000^3548"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o DashboardViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/DashboardViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o36"1FE060D2-806E-44B2-AFA3-962D01B562B3-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522499
+e410813509.816801
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m235"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o GestureDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbc5a8645847cb841^ca1ad145847cb841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m0000000000000000^3560"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o GestureDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/GestureDemoViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o36"A358FF14-5BA8-4140-9D2D-8A0B9260633F-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.803359
+e410813509.967918
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m237"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o HiddenButtonViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercec3cd45847cb841^cdc9f745847cb841^---0#0#1#-19%DVTDocumentLocation2@92"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m0000000000000000^3566"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o HiddenButtonViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenButtonViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o36"23FD8F7B-9FCA-46BF-B09D-1D7DECA9B000-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.799874
+e410813509.966955
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m243"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o HiddenTextFieldViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerace3cc45847cb841^268bf745847cb841^---0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m0000000000000000^3584"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o HiddenTextFieldViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/HiddenTextFieldViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o36"D93C6785-2FC6-41E7-B05A-3EEC2CA71D20-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522418
+e410813509.817543
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m223"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler895e8645847cb841^d34ad145847cb841^---0#0#1#-19%DVTDocumentLocation2@85"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m0000000000000000^3524"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/LoginViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o36"112A501F-0F6C-47A3-8C93-6CE5B5E6E50B-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.523447
+e410813509.816810
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m239"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o MiscellaneousViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler245e8645847cb841^e61fd145847cb841^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m0000000000000000^3572"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o MiscellaneousViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/MiscellaneousViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o36"0EE8DFA2-C11C-49A8-85EE-1E07D6EB481B-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.808523
+e410813509.979034
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m229"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5019cf45847cb841^6ea2fa45847cb841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m0000000000000000^3542"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/RegisterViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o36"144B1AD6-1906-4F70-8560-12681E863B75-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522509
+e410813509.802038
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m233"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o ScreenDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerde5a8645847cb841^7251cd45847cb841^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m0000000000000000^3554"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o ScreenDemoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ScreenDemoViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o36"89B80C69-9AE8-408D-9F4F-6AF92D2F2F40-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522437
+e410813509.807119
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m235"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o ShareScreenViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerab5e8645847cb841^179fce45847cb841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m0000000000000000^3560"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o ShareScreenViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShareScreenViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o36"5337618E-702D-4622-961F-20A731DF9C30-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s410813509.522417
+e410813509.814714
+r1
+xCompileC
+xbuild/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m232"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o ShowKitAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler80608645847cb841^4696d045847cb841^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m0000000000000000^3550"CompileC build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o ShowKitAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-generated-files.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-own-target-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-all-target-headers.hmap -iquote /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/ShowKitApp-project-headers.hmap -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources/i386 -I/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/DerivedSources -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -MMD -MT dependencies -MF /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.d --serialize-diagnostics /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.dia -c /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/ShowKitAppViewController.m -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o36"9AB6D708-4B1B-4C05-8686-F99CECC7205D-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/DashboardViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/GestureDemoViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/HiddenButtonViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/HiddenTextFieldViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/LoginViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/MiscellaneousViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/RegisterViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/ScreenDemoViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/ShareScreenViewController.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/ShowKitAppViewController_iPad.xib
+r0
+
+CCompileXIB /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/Screens/ShowKitAppViewController_iPhone.xib
+r0
+
+CCpResource DieTexture.png build/MonoTouch-iphonesimulator/ShowKitApp.app/DieTexture.png
+r0
+
+CGenerateDSYMFile /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app.dSYM /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp
+r0
+
+CLd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp normal i386
+s410813509.988154
+e410813510.021323
+r0
+xLd
+x/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp
+xnormal
+xi386
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitApp.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/AppDelegate-D409A257F756CE3.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/LoginViewController-10C6E0793F9381DF.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitAppViewController-5E773B4DBA320CD.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/DashboardViewController-7C4C3757E0B13FE1.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShareScreenViewController-24F0A9986E0279D0.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/GestureDemoViewController-83753B33C879B70B.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ScreenDemoViewController-DC148CDFA20A37EC.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/MiscellaneousViewController-D22789A812295FD4.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenTextFieldViewController-D3A2BAE9370E67EF.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/HiddenButtonViewController-88F0036B7F0292D7.o
+d/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/RegisterViewController-5ABCBF1C41DE72D1.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+oUndefined symbols for architecture i386:
+o  "_main", referenced from:
+o      start in crt1.o
+o     (maybe you meant: _OBJC_IVAR_$_DashboardViewController._mainVideoUIView)
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp72"Ld build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp normal i3864f08fd45847cb841^b4740546847cb841^-295"Undefined symbols for architecture i386:  "_main", referenced from:      start in crt1.o     (maybe you meant: _OBJC_IVAR_$_DashboardViewController._mainVideoUIView)ld: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)5(21%IDEActivityLogMessage2@25""_main", referenced from:-410813510#41#28#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@15"Start in crt1.o-410813510#69#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@72"(maybe you meant: _OBJC_IVAR_$_DashboardViewController._mainVideoUIView)-410813510#91#78#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41"Symbol(s) not found for architecture i386-410813510#169#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-410813510#215#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#1#--1488"Ld build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp normal i386    cd /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xamarin Studio.app/Contents/MacOS:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -F/Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator -filelist /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework UIKit -framework MapKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/ShowKitApp.build/MonoTouch-iphonesimulator/ShowKitApp.build/Objects-normal/i386/ShowKitApp_dependency_info.dat -o /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app/ShowKitApp36"376E0980-5BF6-4C30-AFB6-2F1D689E971B-
+b2253362D-AB16-4066-9C8C-573010E0057F
+
+CTouch /Users/nathan/CM/Xamarin/ShowKitApp/obj/Xcode/2/build/MonoTouch-iphonesimulator/ShowKitApp.app
+r0
+

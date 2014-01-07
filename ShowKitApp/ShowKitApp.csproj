@@ -38,39 +38,6 @@
     <MtouchLink>None</MtouchLink>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\iPhone\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
-    <MtouchDebug>true</MtouchDebug>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchI18n>
-    </MtouchI18n>
-    <MtouchArch>ARMv7</MtouchArch>
-    <IpaPackageName>
-    </IpaPackageName>
-    <MtouchExtraArgs>-v -v -v --compiler:clang++</MtouchExtraArgs>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
-    <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\iPhone\Release</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchExtraArgs>--compiler:clang++</MtouchExtraArgs>
-    <MtouchI18n>
-    </MtouchI18n>
-    <MtouchArch>ARMv7</MtouchArch>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
@@ -93,6 +60,12 @@
     <ConsolePause>false</ConsolePause>
     <CodesignProvision>Automatic:AppStore</CodesignProvision>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -179,5 +152,43 @@
     <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp-own-target-headers.hmap" />
     <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp-project-headers.hmap" />
     <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\ShowKitApp.dep" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\build-state.dat" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\AppDelegate-D409A257F756CE3.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\AppDelegate-D409A257F756CE3.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\AppDelegate-D409A257F756CE3.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\DashboardViewController-7C4C3757E0B13FE1.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\DashboardViewController-7C4C3757E0B13FE1.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\DashboardViewController-7C4C3757E0B13FE1.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\GestureDemoViewController-83753B33C879B70B.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\GestureDemoViewController-83753B33C879B70B.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\GestureDemoViewController-83753B33C879B70B.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\HiddenButtonViewController-88F0036B7F0292D7.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\HiddenButtonViewController-88F0036B7F0292D7.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\HiddenButtonViewController-88F0036B7F0292D7.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\HiddenTextFieldViewController-D3A2BAE9370E67EF.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\HiddenTextFieldViewController-D3A2BAE9370E67EF.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\HiddenTextFieldViewController-D3A2BAE9370E67EF.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\LoginViewController-10C6E0793F9381DF.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\LoginViewController-10C6E0793F9381DF.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\LoginViewController-10C6E0793F9381DF.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\MiscellaneousViewController-D22789A812295FD4.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\MiscellaneousViewController-D22789A812295FD4.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\MiscellaneousViewController-D22789A812295FD4.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\RegisterViewController-5ABCBF1C41DE72D1.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\RegisterViewController-5ABCBF1C41DE72D1.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\RegisterViewController-5ABCBF1C41DE72D1.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ScreenDemoViewController-DC148CDFA20A37EC.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ScreenDemoViewController-DC148CDFA20A37EC.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ScreenDemoViewController-DC148CDFA20A37EC.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShareScreenViewController-24F0A9986E0279D0.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShareScreenViewController-24F0A9986E0279D0.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShareScreenViewController-24F0A9986E0279D0.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitApp.LinkFileList" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitAppViewController-5E773B4DBA320CD.d" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitAppViewController-5E773B4DBA320CD.dia" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitAppViewController-5E773B4DBA320CD.o" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitApp_dependency_info.dat" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
   </ItemGroup>
 </Project>

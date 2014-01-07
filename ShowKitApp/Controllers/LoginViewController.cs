@@ -46,7 +46,6 @@ namespace ShowKitApp
 				this.usernameTextField.Text = username;
 		}
 
-
 		public void connectionStateChanged(NSNotification notification){
 
 			SHKNotification showNotice;
@@ -65,10 +64,9 @@ namespace ShowKitApp
 
 		}
 
-
 		partial void loginAction (NSObject sender)
 		{
-			if (this.usernameTextField.Text != null && this.passwordTextField.Text != null)
+			if (this.usernameTextField.Text.Length > 0 && this.passwordTextField.Text.Length > 0)
 			{
 				NSUserDefaults user = NSUserDefaults.StandardUserDefaults;
 				string username = Constants.PREFIX+this.usernameTextField.Text;
