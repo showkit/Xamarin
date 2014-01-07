@@ -190,5 +190,10 @@
     <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitAppViewController-5E773B4DBA320CD.o" />
     <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphonesimulator\ShowKitApp.build\Objects-normal\i386\ShowKitApp_dependency_info.dat" />
     <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphoneos\ShowKitApp.build\ShowKitApp-all-target-headers.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphoneos\ShowKitApp.build\ShowKitApp-generated-files.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphoneos\ShowKitApp.build\ShowKitApp-own-target-headers.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphoneos\ShowKitApp.build\ShowKitApp-project-headers.hmap" />
+    <BundleResource Include="Resources\build\ShowKitApp.build\MonoTouch-iphoneos\ShowKitApp.build\ShowKitApp.hmap" />
   </ItemGroup>
 </Project>
